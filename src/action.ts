@@ -118,7 +118,7 @@ export default async function run({
       await exec(cleverCLI, args)
     }
 
-    const args = ['deploy']
+    const args = ['restart']
     if (appID) {
       args.push('--alias', appID)
     } else if (alias) {
